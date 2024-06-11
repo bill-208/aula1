@@ -11,3 +11,5 @@ a:active {color: yellow; background-color:  transparent; text-decoration: underl
 p {padding-left: 25px;}
 p.footer{text-align: center;}
 p.conteudo{text-align: center;}
+.paragrafo{font-size: 15px;}
+img{float: left;}
