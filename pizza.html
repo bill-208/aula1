@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leggera Pizza Napoletana</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .menu-item {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .menu-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Leggera Pizza Napoletana</h1>
+        <p>Autênticas pizzas napolitanas feitas com paixão.</p>
+    </header>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre nós</h2>
+            <p>A Leggera Pizza Napoletana traz para você a verdadeira experiência das pizzas napolitanas. Com ingredientes frescos e receitas tradicionais, nossas pizzas são preparadas com amor e cuidado.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Nosso Menu</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="margherita.jpg" alt="Pizza Margherita">
+                    <h3>Pizza Margherita</h3>
+                    <p>Molho de tomate, mozzarella, manjericão.</p>
+                    <p>R$ 28,00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="napoletana.jpg" alt="Pizza Napoletana">
+                    <h3>Pizza Napoletana</h3>
+                    <p>Molho de tomate, mozzarella, anchovas, alcaparras, azeitonas.</p>
+                    <p>R$ 32,00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="quattro-formaggi.jpg" alt="Pizza Quattro Formaggi">
+                    <h3>Pizza Quattro Formaggi</h3>
+                    <p>Mozzarella, gorgonzola, parmesão, ricota.</p>
+                    <p>R$ 30,00</p>
+                </div>
+                <!-- Adicione mais divs .menu-item conforme necessário -->
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Como nos encontrar</h2>
+            <p>Telefone: (11) 9876-5432</p>
+            <p>Endereço: Rua das Pizzas, 456 - Vila Napoli, Cidade</p>
+            <p>E-mail: contato@leggerapizzanapoletana.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Leggera Pizza Napoletana. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
