@@ -3,32 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Bella Napoli</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bella Vista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #e84f2c;
+            color: #6b1a1a;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img.png" alt="Logo Pizzaria Bella Vista">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="cardapio.html">Cardápio</a></li>
-                <li><a href="bebidas.html">Bebidas</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>Bella Vista</h1>
+        <p>Autênticas pizzas napolitanas, preparadas com paixão.</p>
     </header>
-    <main>
-        <section class="hero">
-            <h1>Bem-vindo à Pizzaria Bella Vista</h1>
-            <p>Saboreie nossas deliciosas pizzas feitas com ingredientes frescos e selecionados.</p>
+    
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#sobre">Sobre Nós</a> |
+        <a href="#menu">Menu</a> |
+        <a href="#pedido">Pedido Online</a> |
+        <a href="#local">Localizações</a> |
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Bem-vindo à Bella Vista</h2>
+            <p>Descubra o sabor autêntico da Itália em cada mordida.</p>
+            <!-- Inserir imagem ou slideshow aqui -->
         </section>
-    </main>
+
+        <section id="sobre" class="section">
+            <h2>Sobre Nós</h2>
+            <p>Desde 1999, A história da pizzaria Bella começou na Toscana, Itália, fundada por uma família de imigrantes italianos apaixonados pela arte de fazer pizza. Com o sucesso crescente, decidiram expandir para o Brasil, inaugurando sua primeira filial no Rio de Janeiro. Superando desafios iniciais, como adaptar suas receitas ao novo paladar, a Bella logo conquistou os brasileiros. Hoje, a pizzaria é um símbolo de união e tradição, oferecendo desde clássicos italianos até criações inovadoras, enquanto continua a ser um ponto de encontro querido para famílias e amigos, celebrando o sabor autêntico da Itália em solo brasileiro.
+            </p>
+            <p>Nossas pizzas são preparadas com ingredientes frescos e receitas tradicionais.</p>
+            <!-- Inserir galeria de fotos ou mais informações aqui -->
+        </section>
+
+        <section id="menu" class="section">
+            <h2>Menu</h2>
+            <p>Confira nossa seleção de pizzas:</p>
+            <ul>
+                <li>Margherita</li>
+                <li>Napolitana</li>
+                <li>Calabresa</li>
+                <!-- Adicionar mais pizzas -->
+            </ul>
+            <!-- Incluir imagens e descrições detalhadas das pizzas -->
+        </section>
+
+        <section id="pedido" class="section">
+            <h2>Pedido Online</h2>
+            <p>Faça seu pedido online e receba em casa!</p>
+            <!-- Inserir formulário de pedido ou botão para redirecionar para o sistema de pedidos -->
+        </section>
+
+        <section id="local" class="section">
+            <h2>Localizações</h2>
+            <p>Encontre a Leggera Pizza Napoletana perto de você:</p>
+            <ul>
+                <li>Unidade Centro: Rua Italiana, 123</li>
+                <li>Unidade Norte: Avenida Napoli, 456</li>
+                <!-- Adicionar mais localizações -->
+            </ul>
+            <!-- Incluir mapa interativo ou links para cada localização -->
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para reservas ou feedback: +55 21 9876-5432</p>
+            <!-- Inserir formulário de contato -->
+        </section>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Pizzaria Bella Vista. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Bella Vista. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
+
